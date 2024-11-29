@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-background {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.ingredient {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.add-ingredient-btn {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.add-ingredient-btn:hover{
+    cursor: pointer;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.err-text {
+    font-size: xx-small;
+    text-align: right;
+    color: red;
+}

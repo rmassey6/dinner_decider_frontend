@@ -1,0 +1,33 @@
+.recipe-item img {
+    height: 180px;
+    width: 320px;
+    object-fit: cover;
+    outline: solid black 2px;
+}
+
+.recipe-button {
+    width: 100%;
+    line-height: 300%;
+    font-size: large;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: medium;
+}
+
+.recipe-item {
+    width: 320px;
+    text-align: center;
+    outline: solid black 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipe-name {
+    width: 100%;
+    height: 75px;
+}

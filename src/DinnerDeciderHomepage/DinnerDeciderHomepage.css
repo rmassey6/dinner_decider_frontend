@@ -1,0 +1,64 @@
+.dinner-decider-homepage {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .dinner-decider-header {
+    background: linear-gradient(to right, #008080, #20b2aa); 
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 128, 128, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .dinner-decider-header:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 128, 128, 0.5);
+  }
+  
+  .dinner-decider-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .dinner-decider-header p {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: #e0f7f7;
+  }
+  
+  .dinner-decider-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    background: #008080;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #20b2aa;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .teal-button {
+    background: #008080;
+  }
+  

@@ -1,0 +1,9 @@
+.create-recipe-btn {
+    display: block;
+    padding: 0 10px;
+    line-height: 300%;
+    font-size: large;
+}
+.create-recipe-btn:hover{
+    cursor: pointer;
+}
